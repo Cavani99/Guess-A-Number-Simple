@@ -43,10 +43,7 @@ public class Main {
         }
         System.out.print("Do you want to play again? Write [Y]es: ");
         String input=scanner.nextLine();
-        if(input.equalsIgnoreCase("Y") || input.equalsIgnoreCase("Yes"))
-            Play=true;
-        else
-            Play=false;
+        Play= input.equalsIgnoreCase("Y") || input.equalsIgnoreCase("Yes");
     }
 
     }
